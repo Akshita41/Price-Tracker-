@@ -8,6 +8,7 @@ djangorestframework==3.11.2
 future==0.18.2
 gitdb2==2.0.6
 GitPython==3.0.5
+gunicorn==20.1.0
 Jinja2==2.11.3
 json5==0.8.5
 jsonschema==3.2.0
@@ -19,7 +20,7 @@ python-scrapyd-api==2.1.2
 pytz==2019.3
 pywinpty==0.5.7
 PyYAML>=5.4
-pyzmq==18.1.1
+pyzmq==22.3.0 --prefer-binary
 requests==2.22.0
 Scrapy==1.8.0
 scrapy-djangoitem==1.1.1
@@ -31,3 +32,4 @@ Twisted>=20.3.0
 urllib3==1.25.8
 virtualenv==16.7.9
 virtualenv-clone==0.5.3
+whitenoise==6.5.0

@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: price-tracker
+    env: python
+    buildCommand: ./build.sh
+    startCommand: gunicorn django_amazon.wsgi:application
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.9.18
+      - key: DEBUG
+        value: False
+      - key: SECRET_KEY
+        generateValue: true
+      - key: DJANGO_ALLOWED_HOSTS
+        value: .onrender.com
