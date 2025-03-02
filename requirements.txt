@@ -12,23 +12,23 @@ gunicorn==20.1.0
 Jinja2==2.11.3
 json5==0.8.5
 jsonschema==3.2.0
-Pillow==8.1.1
+Pillow==8.1.1 --prefer-binary
 pipenv==2018.11.26
 python-dateutil==2.8.1
 python-editor==1.0.4
 python-scrapyd-api==2.1.2
 pytz==2019.3
-pywinpty==0.5.7
-PyYAML>=5.4
+pywinpty==0.5.7 --prefer-binary
+PyYAML>=5.4 --prefer-binary
 pyzmq==22.3.0 --prefer-binary
 requests==2.22.0
 Scrapy==1.8.0
 scrapy-djangoitem==1.1.1
 scrapyd==1.2.1
-SQLAlchemy==1.3.13
+SQLAlchemy==1.3.13 --prefer-binary
 sqlparse==0.3.0
 tabulate==0.8.6
-Twisted>=20.3.0
+Twisted>=20.3.0 --prefer-binary
 urllib3==1.25.8
 virtualenv==16.7.9
 virtualenv-clone==0.5.3

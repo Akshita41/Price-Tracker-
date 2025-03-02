@@ -2,7 +2,7 @@ services:
   - type: web
     name: price-tracker
     env: python
-    buildCommand: ./build.sh
+    buildCommand: chmod +x build.sh && ./build.sh
     startCommand: gunicorn django_amazon.wsgi:application
     envVars:
       - key: PYTHON_VERSION
