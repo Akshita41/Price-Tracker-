@@ -25,7 +25,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', '*@6ae8bwo%r3mhrer#953zp-fa037aygo3*#n
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.environ.get('DEBUG', 'True') == 'True'
 
-ALLOWED_HOSTS = ['price-jsn3.onrender.com', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['price-tracker-km56.onrender.com', 'localhost', '127.0.0.1']
 
 
 # Application definition
